@@ -1,0 +1,233 @@
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css');
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Cinzel', serif;
+}
+
+:root
+{
+    --bg-color:rgb(245, 237, 237);
+    --main-color: rgb(136, 124, 124);
+    --text-color:rgb(61, 55, 55);
+}
+
+html
+{
+    font-size: 60.5%;
+    overflow-x: hidden;
+}
+
+body
+{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.navbar a
+{
+    text-decoration: none;
+    word-spacing: 40px;
+    margin-left: 2rem;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--text-color);
+}
+.navbar a:hover
+{
+    color: var(--main-color);
+}
+.container-fluid img
+{
+    height: 66px;
+    width: 122px;
+}
+
+.carousel 
+{
+ 
+ width: 100%;
+ padding-left: 30px;
+ padding-right: 30px;
+ padding-bottom: 20px;
+}
+
+section
+{
+    min-height: 100vh;
+    padding: 6rem 0% 1rem;
+
+}
+span
+{
+    color: var(--main-color);
+}
+.info
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-content
+{
+    margin-left: 30px;
+}
+
+.info-content h1
+{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.info-content h3:nth-of-type(2)
+{
+    margin-bottom: 2rem;
+}
+
+.info-content h3
+{
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.info-content p
+{
+    font-size: 15px;
+}
+.follow
+{
+    text-align: center;
+}
+.social-media a
+{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border: .2rem solid var(--text-color);
+    border-radius: 50%;
+    font-size: 2rem;
+    color: var(--text-color);
+    margin: 3rem 1.5rem 3rem 0;
+    transition: .5s ease;
+}
+
+.social-media a:hover
+{
+    background: var(--main-color);
+    color: var(--text-color);
+    box-shadow: 0 0 1rem var(--main-color);
+}
+
+.btn
+{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--text-color);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    font-size: 1.6rem;
+    color: var(--text-color);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+}
+
+.btn:hover
+{
+    box-shadow: none;
+}
+.card-title
+{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card-text
+{
+    font-size: 14px;
+}
+.awards
+{
+    min-height: 100vh;
+    padding: 6rem 0% 1rem;
+    align-items: center;
+    justify-content: center;
+}
+.box i
+{
+    font-size: 150px;
+    color: var(--text-color);
+}
+.text-center 
+{
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--text-color);
+}
+.name
+{
+    font-size:25px;
+    font-weight: 500;
+}
+
+.loc-info
+{
+    text-indent: 100px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 18px;
+}
+.footer-heading
+{
+    font-size: 20px;
+    font-weight: 600;
+}
+.mb-1 a
+{
+    color: var(--text-color);
+    font-size: 15px;
+}
+footer
+{
+    background-color: rgb(182, 177, 177);
+}
+
+.footer-text
+{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+}
+.footer-iconTop a
+{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem;
+    background: var(--text-color);
+    border-radius: .8rem;
+}
+
+.footer-iconTop a:hover
+{
+    box-shadow: 0 0 1rem var(--main-color);
+}
+
+.footer-iconTop a i
+{
+    font-size: 2.4rem;
+    color: var(--bg-color);
+
+}
